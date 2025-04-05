@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Elements Showcase</title>
+  </head>
+  <body id="top">
+    <h1>Welcome to my page! I am Samuel Chizalam Ugbo: An Alt schooler</h1>
+    <h3>
+      This page highlights my ability to effectively utilize HTML media
+      elements.
+    </h3>
+    <p>
+      Here's a random picture of a tech setup with responsiveness for Mobile,
+      Tablet and Laptop
+    </p>
+    <p></p>
+    <!-- Picture Element with multiple sources for responsive design (Not pictures of me)-->
+    <picture>
+      <!--Laptop View-->
+      <source
+        srcset="Assets/photo_2025-04-01_00-28-09.jpg"
+        media="(min-width: 1025px)"
+      />
+      <!--Tablet View-->
+      <source
+        srcset="Assets/photo_2025-04-01_00-28-24.jpg"
+        media="(min-width: 769px) and (max-width: 1024px)"
+      />
+      <!--Mobile View-->
+      <source
+        srcset="Assets/photo_2025-04-01_00-40-30.jpg"
+        media="(max-width: 768px)"
+      />
+      <!--Fallback Image-->
+      <img
+        src="Assets/photo_2025-04-01_00-27-09.jpg"
+        alt="A Tech related image"
+      />
+    </picture>
+    <br />
+    <br />
+    <!--Audio and Video Elements-->
+    <!--My fave Gosple Song-->
+    <h3>A random Song</h3>
+    <audio
+      controls
+      autoplay
+      muted
+      title="Sound-Of-Salem-We-Will-Be-Many-feat-Lawrence-Oyor-Moses-Akoh"
+      src="Assets/Sound-Of-Salem-We-Will-Be-Many-feat-Lawrence-Oyor-Moses-Akoh-(Vistanaij.com).mp3"
+    ></audio>
+    <br />
+    <br />
+    <!--A recreational video of me-->
+    <h3>A recreational video of me</h3>
+    <small><p>POV: You're watching me take on VR</p></small>
+    <video src="Assets/video.MP4" autoplay muted controls></video>
+    <br />
+    <br />
+    That's it guys,thanks for reading, watching, or listening.
+    <!--Navigation-->
+    <footer>
+      <pre>
+<nav>
+        <a href="#top" title="Takes you back to the Top of the page.">Top</a>
+      </nav>     <a href="home.html" target="_blank" title="Back to Home Page">Home</a>  <a
+        href="table.html"
+        target="_blank"
+        title="Schools & Courses at AltSchool Africa"
+        >Table</a
+      >
+      </pre>
+      <p>&copy; 2025 All rights reserved</p>
+    </footer>
+  </body>
+</html>
